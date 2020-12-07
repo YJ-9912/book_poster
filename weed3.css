@@ -1,0 +1,26 @@
+@-webkit-keyframes weed3 {
+	from {background:url('black/weed3.svg')no-repeat;}
+	to {background:url('color/weed3.svg')no-repeat;}
+}
+
+
+.weed3 {
+	position: absolute;
+	left: 30%;
+	right: 60%;
+	top: 0%;
+	bottom: 80%;
+	animation-name: weed3;
+	animation-duration: 1s;
+  background:url('color/weed3.svg') no-repeat;
+  animation-play-state: paused;
+}
+
+.weed3:hover{
+	animation-name:weed3 ;
+	transition-property: all;
+	animation-duration: 1s;
+	animation-delay: 0s;
+	animation-fill-mode: forwards;
+	animation-play-state: running;}
+}

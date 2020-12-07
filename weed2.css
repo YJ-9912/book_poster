@@ -1,0 +1,26 @@
+@-webkit-keyframes weed2 {
+	from {background:url('black/weed2.svg')no-repeat;}
+	to {background:url('color/weed2.svg')no-repeat;}
+}
+
+
+.weed2 {
+	position: absolute;
+	left: 92%;
+	right: 0%;
+	top: 43.43%;
+	bottom: 44.94%;
+	animation-name: weed2;
+	animation-duration: 1s;
+  background:url('color/weed2.svg') no-repeat;
+  animation-play-state: paused;
+}
+
+.weed2:hover{
+	animation-name:weed2 ;
+	transition-property: all;
+	animation-duration: 1s;
+	animation-delay: 0s;
+	animation-fill-mode: forwards;
+	animation-play-state: running;}
+}

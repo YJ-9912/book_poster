@@ -1,0 +1,26 @@
+@-webkit-keyframes text {
+	from {background:url('black/text.svg')no-repeat;}
+	to {background:url('color/text.svg')no-repeat;}
+}
+
+
+.text {
+	position: absolute;
+	width: 400px;
+	height: 175px;
+	left: 743px;
+	top: 430px;
+	animation-name: text;
+	animation-duration: 1s;
+  background:url('color/text.svg') no-repeat;
+  animation-play-state: paused;
+}
+
+.text:hover{
+	animation-name: text ;
+	transition-property: all;
+	animation-duration: 1s;
+	animation-delay: 0s;
+	animation-fill-mode: forwards;
+	animation-play-state: running;}
+}

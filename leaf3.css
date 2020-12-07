@@ -1,0 +1,27 @@
+@-webkit-keyframes leaf3 {
+	from {background:url('black/leaf3.svg')no-repeat;}
+	to {background:url('color/leaf3.svg')no-repeat;}
+}
+
+
+
+.leaf3 {
+	position: absolute;
+	width: 366.11px;
+	height: 338.72px;
+	left: 0px;
+	top: 740px;
+	animation-name: leaf3;
+	animation-duration: 1s;
+  background:url('color/leaf3.svg') no-repeat;
+  animation-play-state: paused;
+}
+
+.leaf3:hover{
+	animation-name:leaf3 ;
+	transition-property: all;
+	animation-duration: 1s;
+	animation-delay: 0s;
+	animation-fill-mode: forwards;
+	animation-play-state: running;}
+}

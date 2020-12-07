@@ -1,0 +1,72 @@
+@-webkit-keyframes html {
+	from {background-color: #777777;}
+	to {background-color: #FFF9F8;}
+}
+
+@-webkit-keyframes time {
+	0% {opacity: 100%;}
+	100% {opacity: 0%;}
+}
+
+@-webkit-keyframes circle {
+	0% {margin-left: -20%;}
+	50%{margin-left: 120%;}
+	100% {margin-left: -20%;}
+}
+
+@-webkit-keyframes circle2 {
+	0% {margin-left: 120%;}
+	50%{margin-left: -20%;}
+	100% {margin-left: 120%;}
+}
+
+
+
+
+html {animation-name: html;
+	transition-property: all;
+	animation-duration: 5s;
+	animation-delay: 5s;
+	animation-fill-mode: forwards;
+	background-color: #777777;}
+
+.time {
+	position: absolute;
+	left: 47.14%;
+	right: 47.08%;
+	top: 40.39%;
+	bottom: 41.2%;
+	animation-name: time;
+	animation-delay: 3.5s;
+	transition-property: all;
+	animation-duration: 1.5s;
+	animation-fill-mode: forwards;
+ 	background:url('black/time.svg') no-repeat;}
+
+
+
+ .circle { position: absolute; 
+	margin-left: -10%; 
+	width: 100px;
+ 	height: 100px;
+ 	border-radius: 50%;
+	background: #C3E9E2;
+	filter: blur(10px);
+	-webkit-filter: blur(10px);
+
+	animation-name: circle;
+	transition-property: all;
+	animation-iteration-count:infinite;}
+
+ .circle2 { position: absolute; 
+	margin-left: -10%; 
+	width: 150px;
+ 	height: 150px;
+ 	border-radius: 50%;
+	background: #FFF3E3;
+	filter: blur(10px);
+	-webkit-filter: blur(10px);
+
+	animation-name: circle2;
+	transition-property: all;
+	animation-iteration-count:infinite;}

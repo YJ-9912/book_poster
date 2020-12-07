@@ -1,0 +1,27 @@
+@-webkit-keyframes leaf2 {
+	from {background:url('black/leaf2.svg')no-repeat;}
+	to {background:url('color/leaf2.svg')no-repeat;}
+}
+
+
+
+.leaf2 {
+	position: absolute;
+	width: 608.05px;
+	height: 649.05px;
+	left: 71px;
+	top: 0px;
+	animation-name: leaf2;
+	animation-duration: 1s;
+  background:url('color/leaf2.svg') no-repeat;
+  animation-play-state: paused;
+}
+
+.leaf2:hover{
+	animation-name:leaf2 ;
+	transition-property: all;
+	animation-duration: 1s;
+	animation-delay: 0s;
+	animation-fill-mode: forwards;
+	animation-play-state: running;}
+}

@@ -1,0 +1,26 @@
+@-webkit-keyframes leaf6 {
+	from {background:url('black/leaf6.svg')no-repeat;}
+	to {background:url('color/leaf6.svg')no-repeat;}
+}
+
+
+.leaf6 {
+	position: absolute;
+	left: 44.95%;
+	right: 33.96%;
+	top: 0%;
+	bottom: 83.33%;
+	animation-name: leaf6;
+	animation-duration: 1s;
+  background:url('color/leaf6.svg') no-repeat;
+  animation-play-state: paused;
+}
+
+.leaf6:hover{
+	animation-name:leaf6 ;
+	transition-property: all;
+	animation-duration: 1s;
+	animation-delay: 0s;
+	animation-fill-mode: forwards;
+	animation-play-state: running;}
+}

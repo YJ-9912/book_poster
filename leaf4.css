@@ -1,0 +1,27 @@
+@-webkit-keyframes leaf4 {
+	from {background:url('black/leaf4.svg')no-repeat;}
+	to {background:url('color/leaf4.svg')no-repeat;}
+}
+
+
+
+.leaf4 {
+	position: absolute;
+left: 43.75%;
+right: 44.54%;
+top: 79.81%;
+bottom: -0.03%;
+	animation-name: leaf4;
+	animation-duration: 1s;
+  background:url('color/leaf4.svg') no-repeat;
+  animation-play-state: paused;
+}
+
+.leaf4:hover{
+	animation-name:leaf4 ;
+	transition-property: all;
+	animation-duration: 1s;
+	animation-delay: 0s;
+	animation-fill-mode: forwards;
+	animation-play-state: running;}
+}
